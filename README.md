@@ -1,4 +1,4 @@
-Ethereum Network Intelligence API
+EPool Ethereum Classic Network Intelligence API
 ============
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
@@ -36,8 +36,8 @@ Configure the app modifying [processes.json](/eth-net-intelligence-api/blob/mast
 		"LISTENING_PORT"  : "30303", // eth listening port (only used for display)
 		"INSTANCE_NAME"   : "", // whatever you wish to name your node
 		"CONTACT_DETAILS" : "", // add your contact details here if you wish (email/skype)
-		"WS_SERVER"       : "wss://rpc.ethstats.net", // path to eth-netstats WebSockets api server
-		"WS_SECRET"       : "see http://forum.ethereum.org/discussion/2112/how-to-add-yourself-to-the-stats-dashboard-its-not-automatic", // WebSockets api server secret used for login
+		"WS_SERVER"       : "wss://etcstats.epool.io", // path to eth-netstats WebSockets api server
+		"WS_SECRET"       : "etcrocks", // WebSockets api server secret used for login
 		"VERBOSITY"       : 2 // Set the verbosity (0 = silent, 1 = error, warn, 2 = error, warn, info, success, 3 = all logs)
 	}
 ```
