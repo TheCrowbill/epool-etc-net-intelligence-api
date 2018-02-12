@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "wss://etcstats.epool.io",
+      "WS_SERVER"       : "ws://etcstats.epool.io",
       "WS_SECRET"       : "etcrocks",
       "VERBOSITY"       : 2
     }
